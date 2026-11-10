@@ -1,0 +1,49 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local OCR data and user media
+/data/
+/models/
+/runtimes/
+/cache/
+/logs/
+/albums/
+/exports/
+OCR.json
+.OCR-*.tmp
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+*.log
+.env
+.env.*
+!.env.example
+
+# Build output
+/build/
+/dist/
+
+# Local editor / OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
